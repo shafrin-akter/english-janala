@@ -140,9 +140,31 @@
         id="lavelContainer"
       ></div>
     </section>
+
+    <section class="flex justify-center py-5">
+      <div class="join">
+        <div>
+          <label class="input validator join-item">
+            <input
+              id="input-search"
+              type="text"
+              placeholder="Search Vucavulary"
+              required
+            />
+          </label>
+        </div>
+        <button id="btn-search" class="btn btn-primary join-item">
+          Search
+        </button>
+      </div>
+    </section>
+
+    <!-- load spinner -->
     <div id="spinner" class="flex justify-center items-center py-10 hidden">
       <span class="loading loading-bars loading-xl"></span>
     </div>
+
+    <!-- vucavulary card -->
     <section
       id="word-conatiner"
       class="bg-gray-100 p-10 w-11/12 mx-auto my-10 grid grid-cols-1 md:grid-cols-3 gap-5"
